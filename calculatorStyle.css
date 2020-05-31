@@ -1,0 +1,26 @@
+body{
+    background-color: lavender;
+    text-transform: capitalize;
+}
+
+input{
+    text-align: right;
+}
+
+input.operator{
+    text-align: center;
+    width: 10px;
+}
+
+input.result{
+    width: 368px;
+}
+
+p button.operation{
+    width: 60px;
+}
+
+p button{
+    width: 80px;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculatorStyle.css">
+</head>
+<body>
+    <header>
+        <h1>Basic Calculator</h1>
+    </header>
+    <input type="text" id="numOne" class="inNumber" > 
+    <input type="text" id="operator" class="operator" > 
+    <input type="text" id="numTwo" class="inNumber" >
+    <br><br><br>
+    <input type="text" id="resOneTwo" class="result" >
+    <p>
+        <button class="operation" id="plus" data-value="+">+</button> 
+        <button class="operation" id="minus" data-value="-">-</button> 
+        <button class="operation" id="multi" data-value="*">*</button> 
+        <button class="operation" id="divide" data-value="/">/</button> 
+    </p>
+    <p>
+        <button class="number" id="one" data-value="1">1</button>
+        <button class="number" id="two" data-value="2">2</button>
+        <button class="number" id="three" data-value="3">3</button>
+    </p>
+    
+    <p>
+        <button class="number" id="four" data-value="4">4</button> 
+        <button class="number" id="five" data-value="5">5</button> 
+        <button class="number" id="six" data-value="6">6</button>
+    </p>
+    
+    <p>
+        <button class="number" id="seven" data-value="7">7</button> 
+        <button class="number" id="eight" data-value="8">8</button> 
+        <button class="number" id="nine" data-value="9">9</button>
+    </p>
+    
+    <p>
+        <button class="number" id="zero" data-value="0">0</button> 
+        <button class="clear" id="clear">clear</button>
+        <button class="result" id="result">=</button>
+    </p>
+
+    <script src="scripts/calculator.js"></script>
+    
+</body>
+</html>
